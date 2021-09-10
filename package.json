@@ -1,0 +1,17 @@
+{
+  "name": "mongoSeeder",
+  "version": "0.0.0",
+  "description": "A database seeder for mongodb",
+  "author": "SigurdR",
+  "main": "seeder.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "connDB": "node seeder.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "faker": "^5.5.3",
+    "mongoose": "^6.0.5"
+  }
+}
