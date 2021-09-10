@@ -38,6 +38,7 @@ async function seedDB() {
 
     } catch (err) {
         console.log(err.stack);
+
     }
 }
 
